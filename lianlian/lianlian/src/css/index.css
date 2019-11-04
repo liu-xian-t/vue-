@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrap .head{
+    width: 100%;
+    height: 50px;
+    background: #eee;
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+    font-size: 20px;
+}
+.main .list{
+    width: 100%;
+    height: 100px;
+    background: salmon;
+}
+.active{
+    color: red;
+}
+button{
+    width: 100%;
+    height: 50px;
+    background: skyblue;
+}
+.btn{
+    margin-top:30px;
+}
+.shopadd{
+    width: 100px;
+    height: 40px;
+    margin-left: 200px;
+}
+.jia{
+    width: 30px;
+    height: 30px;
+    margin-left: 300px;
+    margin-top:20px;
+}
+.jian{
+    width: 30px;
+    height: 30px;
+    margin-top:20px;
+}

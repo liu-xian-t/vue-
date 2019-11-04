@@ -1,0 +1,35 @@
+import Mock from "mockjs"
+Mock.mock("/api","get",{
+    "list":[
+        {
+            navtitle:"你好",
+            "content":[
+                {
+                    "id":1,
+                    "title":"@ctitle",
+                    "count":1,
+                },
+                {
+                    "id":2,
+                    "title":"@ctitle",
+                    "count":1,
+                }
+            ]
+        },
+        {
+            navtitle:"哈哈",
+            "content":[
+                {
+                    "id":11,
+                    "title":"@ctitle",
+                    "count":1,
+                },
+                {
+                    "id":12,
+                    "title":"@ctitle",
+                    "count":1,
+                }
+            ]
+        }
+    ]
+})
